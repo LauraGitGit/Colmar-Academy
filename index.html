@@ -3,20 +3,23 @@
   <head>
     <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
   </head>
   <body>
     <header>
       <nav class="header-nav">
         <div class="logo">
-          <img src="resources/images/ic-logo.svg" alt="logo"/>
-          <span>COLMAR<strong>ACADEMY</strong></span>
+          <a href="index.html" class="logo-link">
+            <img src="resources/images/ic-logo.svg" alt="logo" class="logo-image"/>
+            <span class="logo-text">COLMAR<strong>ACADEMY</strong></span>
+          </a>
         </div>
 
         <div class="menu">
-          <span>On campus</span>
-          <span>Online</span>
-          <span>or companies</span>
-          <span>Sign in</span>
+          <button class="nav-button">On campus</button>
+          <button class="nav-button">Online</button>
+          <button class="nav-button">For companies</button>
+          <button class="nav-button">Sign in</button>
         </div>
 
         <div class="mobile-header">
@@ -134,145 +137,222 @@
     <!-- The third container -->
     <div class="third-container">
       <div class="box-title">
-        <span>Start learning</span>
+        <span>Start Learning</span>
       </div>
       <div class="courses">
-        <!-- course boxes -->
+        <!-- Software Engineering -->
         <div class="course-box">
           <div class="course-image">
-            <img
-              src="resources/images/course-software.jpg"
-              alt="Software engineering"/>
+            <img src="resources/images/course-software.jpg" alt="Software engineering"/>
           </div>
           <div class="course-info">
-            <span class="course-name">Software engineering</span>
+            <h3 class="course-name">Software Engineering</h3>
             <span class="big-courses">COURSES</span>
-            <span class="course-list">Web Development, Mobile Development, iOT, APIs</span>
+            <p class="course-list">Web Development, Mobile Development, iOT, APIs</p>
           </div>
         </div>
 
+        <!-- Computer Art -->
         <div class="course-box">
           <div class="course-image">
-            <img
-              src="resources/images/course-computer-art.jpg"
-              alt="Computer art"/>
+            <img src="resources/images/course-computer-art.jpg" alt="Computer art"/>
           </div>
           <div class="course-info">
-            <span class="course-name">Computer art</span>
+            <h3 class="course-name">Computer Art</h3>
             <span class="big-courses">COURSES</span>
-            <span class="course-list">Imaging & Design, Web Design, Motion graphics & Visual Effects, Computer Animation</span>
+            <p class="course-list">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
           </div>
         </div>
 
+        <!-- Design -->
         <div class="course-box">
           <div class="course-image">
             <img src="resources/images/course-design.jpg" alt="Design"/>
           </div>
           <div class="course-info">
-            <span class="course-name">Design</span>
+            <h3 class="course-name">Design</h3>
             <span class="big-courses">COURSES</span>
-            <span class="course-list">User Experience Design, User Research, Visual Design</span>
+            <p class="course-list">User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
 
+        <!-- Data -->
         <div class="course-box">
           <div class="course-image">
             <img src="resources/images/course-data.jpg" alt="Data"/>
           </div>
           <div class="course-info">
-            <span class="course-name">Data</span>
+            <h3 class="course-name">Data</h3>
             <span class="big-courses">COURSES</span>
-            <span class="course-list">Data Science, Big Data, SQL, Data Visualization</span>
+            <p class="course-list">Data Science, Big Data, SQL, Data Visualization</p>
           </div>
         </div>
 
+        <!-- Business -->
         <div class="course-box">
           <div class="course-image">
             <img src="resources/images/course-business.jpg" alt="Business"/>
           </div>
           <div class="course-info">
-            <span class="course-name">Business</span>
+            <h3 class="course-name">Business</h3>
             <span class="big-courses">COURSES</span>
-            <span class="course-list">Product Development, Business Development, Startup</span>
+            <p class="course-list">Product Development, Business Development, Startup</p>
           </div>
         </div>
 
+        <!-- Marketing -->
         <div class="course-box">
           <div class="course-image">
             <img src="resources/images/course-marketing.jpg" alt="Marketing"/>
           </div>
           <div class="course-info">
-            <span class="course-name">Marketing</span>
+            <h3 class="course-name">Marketing</h3>
             <span class="big-courses">COURSES</span>
-            <span class="course-list">Analytics, Content Marketing, Mobile Marketing</span>
+            <p class="course-list">Analytics, Content Marketing, Mobile Marketing</p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Mobile version -->
     <div class="third-container-mobile">
-      <span class="box-title">Start learning</span>
-      <span class="course-name">Software engineering</span>
-      <span class="course-name">Computer art</span>
-      <span class="course-name">Design</span>
-      <span class="course-name">Data</span>
-      <span class="course-name">Business</span>
-      <span class="course-name">Marketing</span>
-    </div>
-
-    <!-- Bottom container -->
-    <div class="box-title">
-      <span>Thesis exhibit</span>
-    </div>
-    <div class="bottom-container">
-      <div class="video-box">
-        <video src="resources/videos/thesis.mp4" type="video/mp4" controls>
-          Your browser does not support the video tag.
-        </video>
-        <span class="title">Reimagine urban</span>
-        <p>
-          "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
-          commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
-          sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-          tristique ligula."</p>
-      </div>
-
-      <div class="right-box bottom">
-        <div class="small-box fisma">
-          <div class="image">
-            <img
-              class="ds-image"
-              src="resources/images/thesis-fisma.jpg"
-              alt="designing papers"/>
-          </div>
-          <div class="image-info">
-            <span class="title">Fisma: Design and Prototype</span>
-            <span class="info">Designer showcase of new product </span>
-          </div>
-        </div>
-        <div class="small-box now-and-then">
-          <div class="image">
-            <img
-              class="ds-image"
-              src="resources/images/thesis-now-and-then.jpg"
-              alt="A tall building of New York"/>
-          </div>
-          <div class="image-info">
-            <span class="title">Now and then</span>
-            <span class="info">Research study about New York    </span>
-          </div>
-        </div>
+      <h2 class="box-title">
+        <span>Start Learning</span>
+      </h2>
+      <div class="mobile-courses">
+        <a href="#" class="course-name">Software Engineering</a>
+        <a href="#" class="course-name">Computer Art</a>
+        <a href="#" class="course-name">Design</a>
+        <a href="#" class="course-name">Data</a>
+        <a href="#" class="course-name">Business</a>
+        <a href="#" class="course-name">Marketing</a>
       </div>
     </div>
+
+    <!-- Thesis Exhibit Section -->
+    <section class="thesis-section">
+      <div class="box-title">
+        <span>Thesis Exhibit</span>
+      </div>
+      
+      <div class="bottom-container">
+        <div class="video-box">
+          <video src="resources/videos/thesis.mp4" type="video/mp4" controls>
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-content">
+            <h3 class="title">Reimagine Urban</h3>
+            <p>
+              "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+              sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+              tristique ligula."
+            </p>
+          </div>
+        </div>
+
+        <div class="right-box bottom">
+          <div class="small-box fisma">
+            <div class="image">
+              <img
+                class="ds-image"
+                src="resources/images/thesis-fisma.jpg"
+                alt="Designing papers"/>
+            </div>
+            <div class="image-info">
+              <h4 class="title">Fisma: Design and Prototype</h4>
+              <span class="info">Designer showcase of new prototype product</span>
+            </div>
+          </div>
+          
+          <div class="small-box now-and-then">
+            <div class="image">
+              <img
+                class="ds-image"
+                src="resources/images/thesis-now-and-then.jpg"
+                alt="A tall building of New York"/>
+            </div>
+            <div class="image-info">
+              <h4 class="title">Now and Then</h4>
+              <span class="info">Research study about New York</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- footer -->
     <footer>
-      <div class="footer-line">
-        <span class="copy-right">&copy; 2016 Colmar Academy. All rights reserved</span>
-        <nav class="menu">
-          <span>Terms</span>
-          <span>Privacy</span>
-        </nav>
+      <div class="footer-container">
+        <!-- Company Info Section -->
+        <div class="footer-section company-info">
+          <div class="footer-logo">
+            <img src="resources/images/ic-logo.svg" alt="Colmar Academy logo"/>
+            <span>COLMAR<strong>ACADEMY</strong></span>
+          </div>
+          <p class="company-description">
+            Empowering minds through quality education since 2016. We believe in making education accessible and engaging for everyone.
+          </p>
+          <address class="company-address">
+            123 Learning Street<br>
+            New York, NY 10001<br>
+            info@colmaracademy.com
+          </address>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-section quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#campus">Campus</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources Section -->
+        <div class="footer-section resources">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#help">Help Center</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#careers">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="footer-section newsletter-signup">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form id="newsletter-form" class="newsletter-form">
+            <div class="input-wrapper">
+              <input 
+                type="email" 
+                id="newsletter-email"
+                placeholder="Enter your email address..."
+                required
+              >
+            </div>
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="newsletter-description">
+            Stay updated with our latest courses and events.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Footer -->
+      <div class="bottom-footer">
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="copy-right">&copy; 2016 Colmar Academy. All rights reserved</p>
       </div>
     </footer>
+    <script src="resources/js/script.js"></script>
   </body>
 </html>
