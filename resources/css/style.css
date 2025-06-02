@@ -173,6 +173,7 @@ video {
   transform: translateY(-2px);
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   border-color: #434343;
+  border-radius: 8px;
 }
 
 .nav-button:active {
